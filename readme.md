@@ -33,17 +33,19 @@ You will also need to set up the following environment variables for connecting 
    cd openai-chatbot-file-analysis
 
 2. **Create a .env file** in the root directory of the project and add the following environment variables:
+   **Note: All variables without quotes, Example**
+   ![image (1)](https://github.com/user-attachments/assets/4362224a-d165-4ecc-be47-282c69497828)
 
-    azure_endpoint = "your-openai-api-azure-endpoint"<br />
-    openai_api_key = "your-openai-api-key"<br />
-    api_version = "your-api-version"<br />
+    azure_endpoint=your-openai-api-azure-endpoint<br />
+    openai_api_key=your-openai-api-key<br />
+    api_version=your-api-version<br />
 
-3. Build the Docker image:
+4. Build the Docker image:
 
     docker build -t openai-chatbot .
 
-4. Run the Docker container, making sure to pass the .env file as environment variables:
+5. Run the Docker container, making sure to pass the .env file as environment variables:
 
-    docker run --env-file .env -p 8000:8000 openai-chatbot
+    docker run --env-file .env -p 8000:8000 --name openai-chatbot-container -d openai-chatbot
 
 This will start the chatbot in the Docker container, and it will be accessible at **http://localhost:8000**
