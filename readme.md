@@ -32,7 +32,7 @@ You will also need to set up the following environment variables for connecting 
    git clone https://github.com/Palaniappan-AR/openai-chatbot-file-analysis.git
    cd openai-chatbot-file-analysis
 
-2. **Create a .env file** in the root directory of the project and add the following environment variables:
+2. **Create a .env file** in the root directory of the project and add the following environment variables:<br />
    **Note: All variables without quotes, Example**
    ![image (1)](https://github.com/user-attachments/assets/4362224a-d165-4ecc-be47-282c69497828)
 
