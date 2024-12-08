@@ -4,6 +4,7 @@ This repository contains a Python-based chatbot built using the Chainlit framewo
 
 ## Screenshots of the app
 <img width="958" alt="1" src="https://github.com/user-attachments/assets/35e054f7-8716-4c21-b4b4-9ed13b21757e">
+### I added a chainlit - dropdown feature to help frontend users better understand the thought process and code used by GPT in the backend.
 <img width="378" alt="2" src="https://github.com/user-attachments/assets/7c7b42a8-6274-48dd-b195-650292537d69">
 <img width="383" alt="3" src="https://github.com/user-attachments/assets/8bf7bcdd-a4a6-4d80-9534-82ac930e2a79">
 <img width="382" alt="4" src="https://github.com/user-attachments/assets/6b6e9482-e1da-4936-ab25-b81e200efae8">
