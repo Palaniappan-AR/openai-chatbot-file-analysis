@@ -1,6 +1,6 @@
 # OpenAI Chatbot with File Analysis
 
-This repository contains a Python-based chatbot built using the Chainlit framework and OpenAI's GPT-3.5 API. The bot is designed to interact with users and assist with analyzing uploaded CSV files. It supports Python code execution for data analysis tasks and visualizations using libraries such as Pandas, Matplotlib, and Seaborn.
+This repository contains a Python-based chatbot built using the Chainlit framework and OpenAI's GPT-3.5 API. The bot is designed to interact with users and assist with analyzing uploaded CSV files. It supports Python code execution for data analysis tasks and visualizations using libraries such as Pandas and Matplotlib.
 
 ## Screenshots of the app
 **I added a chainlit - dropdown feature to help frontend users better understand the thought process and code used by GPT in the backend.**
@@ -20,9 +20,9 @@ This repository contains a Python-based chatbot built using the Chainlit framewo
 
 You will also need to set up the following environment variables for connecting to OpenAI's API:
 
-- `azure_endpoint`: Your OpenAI API Azure endpoint (if you're using Azure).
+- `azure_endpoint`: Your OpenAI API Azure endpoint.
 - `openai_api_key`: Your OpenAI API key.
-- `api_version`: The version of the API you want to use (e.g., "v1").
+- `api_version`: The version of the API you want to use.
 
 ## Installation
 
@@ -34,9 +34,9 @@ You will also need to set up the following environment variables for connecting 
 
 2. **Create a .env file** in the root directory of the project and add the following environment variables:
 
-    azure_endpoint = "your-openai-api-azure-endpoint"
-    openai_api_key = "your-openai-api-key"
-    api_version = "your-api-version"
+    azure_endpoint = "your-openai-api-azure-endpoint"<br />
+    openai_api_key = "your-openai-api-key"<br />
+    api_version = "your-api-version"<br />
 
 3. Build the Docker image:
 
