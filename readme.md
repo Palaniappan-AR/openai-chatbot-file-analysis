@@ -3,7 +3,7 @@
 This repository contains a Python-based chatbot built using the Chainlit framework and OpenAI's GPT-3.5 API. The bot is designed to interact with users and assist with analyzing uploaded CSV files. It supports Python code execution for data analysis tasks and visualizations using libraries such as Pandas and Matplotlib.
 
 ## Screenshots of the app
-**I added a chainlit - dropdown feature to help frontend users better understand the thought process and code used by GPT in the backend.**
+**Note: I added a chainlit - dropdown feature to help frontend users better understand the thought process and code used by GPT in the backend.**
 <img width="958" alt="1" src="https://github.com/user-attachments/assets/35e054f7-8716-4c21-b4b4-9ed13b21757e">
 <img width="378" alt="2" src="https://github.com/user-attachments/assets/7c7b42a8-6274-48dd-b195-650292537d69">
 <img width="383" alt="3" src="https://github.com/user-attachments/assets/8bf7bcdd-a4a6-4d80-9534-82ac930e2a79">
