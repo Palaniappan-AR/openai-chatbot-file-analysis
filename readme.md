@@ -29,7 +29,7 @@ You will also need to set up the following environment variables for connecting 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/openai-chatbot-file-analysis.git
+   git clone https://github.com/Palaniappan-AR/openai-chatbot-file-analysis.git
    cd openai-chatbot-file-analysis
 
 2. **Create a .env file** in the root directory of the project and add the following environment variables:
